@@ -26,6 +26,10 @@ function navitem_link()
   });
   
   /* ATTRIBUTES */
+  this.onclick = function()
+  {
+    window.location = self.link;
+  }
 }
 
 /* PROTOTYPES */
