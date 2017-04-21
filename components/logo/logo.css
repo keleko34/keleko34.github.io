@@ -1,0 +1,31 @@
+/*********************************
+ *  logo
+ *  Created by keleko34
+ *  displays main logo
+ ********************************/
+
+.logo {
+  position: absolute;
+  height: 60px;
+  width: 190px;
+  cursor: pointer;
+}
+
+.logo__container {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.logo__container__img {
+  height: 34px;
+}
+
+.logo__text {
+    position: absolute;
+    left: 62px;
+    top: -1px;
+    font-family: 'wolf_in_the_cityregular';
+    font-size: 60px;
+    color: #87cefa;
+}
