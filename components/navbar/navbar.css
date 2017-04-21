@@ -21,3 +21,7 @@
 .navbar .navitem {
   display:{{isMobile | isHidden}};
 }
+
+.navbar .navitem_link {
+  display:{{isMobile | isHidden}};
+}
